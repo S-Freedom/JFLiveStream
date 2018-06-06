@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7913932A7914E81896EF3854 /* Pods_JFLiveStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814169216D75C275DD29CE4D /* Pods_JFLiveStream.framework */; };
+		A6A22E6E20C6B1F300EE92CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E6D20C6B1F300EE92CC /* AppDelegate.m */; };
+		A6A22E7120C6B1F400EE92CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E7020C6B1F400EE92CC /* ViewController.m */; };
+		A6A22E7420C6B1F400EE92CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A22E7220C6B1F400EE92CC /* Main.storyboard */; };
+		A6A22E7620C6B1F400EE92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A22E7520C6B1F400EE92CC /* Assets.xcassets */; };
+		A6A22E7920C6B1F400EE92CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A22E7720C6B1F400EE92CC /* LaunchScreen.storyboard */; };
+		A6A22E7C20C6B1F400EE92CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E7B20C6B1F400EE92CC /* main.m */; };
+		A6A22E8620C6B1F400EE92CC /* JFLiveStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E8520C6B1F400EE92CC /* JFLiveStreamTests.m */; };
+		A6A22E9120C6B1F400EE92CC /* JFLiveStreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E9020C6B1F400EE92CC /* JFLiveStreamUITests.m */; };
+		A6A22EA020C77C6700EE92CC /* JFLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A22E9F20C77C6700EE92CC /* JFLiveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A22E8220C6B1F400EE92CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A22E6120C6B1F300EE92CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A22E6820C6B1F300EE92CC;
+			remoteInfo = JFLiveStream;
+		};
+		A6A22E8D20C6B1F400EE92CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A22E6120C6B1F300EE92CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A22E6820C6B1F300EE92CC;
+			remoteInfo = JFLiveStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814169216D75C275DD29CE4D /* Pods_JFLiveStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFLiveStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF3791DBAA2DD2DC5ED6760 /* Pods-JFLiveStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFLiveStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFLiveStream/Pods-JFLiveStream.debug.xcconfig"; sourceTree = "<group>"; };
+		A6893BCD20C7CE590072F2B4 /* IJKMediaFramework */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = IJKMediaFramework; path = ../../IJKMediaFramework.framework/IJKMediaFramework; sourceTree = "<group>"; };
+		A6A22E6920C6B1F300EE92CC /* JFLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A22E6C20C6B1F300EE92CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6A22E6D20C6B1F300EE92CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6A22E6F20C6B1F400EE92CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6A22E7020C6B1F400EE92CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6A22E7320C6B1F400EE92CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A22E7520C6B1F400EE92CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A22E7820C6B1F400EE92CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A22E7A20C6B1F400EE92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A22E7B20C6B1F400EE92CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A22E8120C6B1F400EE92CC /* JFLiveStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFLiveStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A22E8520C6B1F400EE92CC /* JFLiveStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFLiveStreamTests.m; sourceTree = "<group>"; };
+		A6A22E8720C6B1F400EE92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A22E8C20C6B1F400EE92CC /* JFLiveStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFLiveStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A22E9020C6B1F400EE92CC /* JFLiveStreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFLiveStreamUITests.m; sourceTree = "<group>"; };
+		A6A22E9220C6B1F400EE92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A22E9E20C77C6700EE92CC /* JFLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFLiveViewController.h; sourceTree = "<group>"; };
+		A6A22E9F20C77C6700EE92CC /* JFLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFLiveViewController.m; sourceTree = "<group>"; };
+		A6A22EA320C7CCE300EE92CC /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../../IJKMediaFramework.framework; sourceTree = "<group>"; };
+		EC38A46B216E3660C1DA163F /* Pods-JFLiveStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFLiveStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFLiveStream/Pods-JFLiveStream.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A22E6620C6B1F300EE92CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913932A7914E81896EF3854 /* Pods_JFLiveStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E7E20C6B1F400EE92CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E8920C6B1F400EE92CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48019B22629EC26EDFAAC09E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6893BCD20C7CE590072F2B4 /* IJKMediaFramework */,
+				A6A22EA320C7CCE300EE92CC /* IJKMediaFramework.framework */,
+				814169216D75C275DD29CE4D /* Pods_JFLiveStream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		791136675A85EA1A33668C12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF3791DBAA2DD2DC5ED6760 /* Pods-JFLiveStream.debug.xcconfig */,
+				EC38A46B216E3660C1DA163F /* Pods-JFLiveStream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6A22E6020C6B1F300EE92CC = {
+			isa = PBXGroup;
+			children = (
+				A6A22E6B20C6B1F300EE92CC /* JFLiveStream */,
+				A6A22E8420C6B1F400EE92CC /* JFLiveStreamTests */,
+				A6A22E8F20C6B1F400EE92CC /* JFLiveStreamUITests */,
+				A6A22E6A20C6B1F300EE92CC /* Products */,
+				791136675A85EA1A33668C12 /* Pods */,
+				48019B22629EC26EDFAAC09E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A22E6A20C6B1F300EE92CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A22E6920C6B1F300EE92CC /* JFLiveStream.app */,
+				A6A22E8120C6B1F400EE92CC /* JFLiveStreamTests.xctest */,
+				A6A22E8C20C6B1F400EE92CC /* JFLiveStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A22E6B20C6B1F300EE92CC /* JFLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				A6A22E6C20C6B1F300EE92CC /* AppDelegate.h */,
+				A6A22E6D20C6B1F300EE92CC /* AppDelegate.m */,
+				A6A22E6F20C6B1F400EE92CC /* ViewController.h */,
+				A6A22E7020C6B1F400EE92CC /* ViewController.m */,
+				A6A22E7220C6B1F400EE92CC /* Main.storyboard */,
+				A6A22E7520C6B1F400EE92CC /* Assets.xcassets */,
+				A6A22E7720C6B1F400EE92CC /* LaunchScreen.storyboard */,
+				A6A22E7A20C6B1F400EE92CC /* Info.plist */,
+				A6A22E7B20C6B1F400EE92CC /* main.m */,
+				A6A22E9E20C77C6700EE92CC /* JFLiveViewController.h */,
+				A6A22E9F20C77C6700EE92CC /* JFLiveViewController.m */,
+			);
+			path = JFLiveStream;
+			sourceTree = "<group>";
+		};
+		A6A22E8420C6B1F400EE92CC /* JFLiveStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A22E8520C6B1F400EE92CC /* JFLiveStreamTests.m */,
+				A6A22E8720C6B1F400EE92CC /* Info.plist */,
+			);
+			path = JFLiveStreamTests;
+			sourceTree = "<group>";
+		};
+		A6A22E8F20C6B1F400EE92CC /* JFLiveStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A22E9020C6B1F400EE92CC /* JFLiveStreamUITests.m */,
+				A6A22E9220C6B1F400EE92CC /* Info.plist */,
+			);
+			path = JFLiveStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A22E6820C6B1F300EE92CC /* JFLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A22E9520C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStream" */;
+			buildPhases = (
+				16713F4075175CA08D3EB03B /* [CP] Check Pods Manifest.lock */,
+				A6A22E6520C6B1F300EE92CC /* Sources */,
+				A6A22E6620C6B1F300EE92CC /* Frameworks */,
+				A6A22E6720C6B1F300EE92CC /* Resources */,
+				67E481E70DBD3ADB26291646 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFLiveStream;
+			productName = JFLiveStream;
+			productReference = A6A22E6920C6B1F300EE92CC /* JFLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A22E8020C6B1F400EE92CC /* JFLiveStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A22E9820C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStreamTests" */;
+			buildPhases = (
+				A6A22E7D20C6B1F400EE92CC /* Sources */,
+				A6A22E7E20C6B1F400EE92CC /* Frameworks */,
+				A6A22E7F20C6B1F400EE92CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A22E8320C6B1F400EE92CC /* PBXTargetDependency */,
+			);
+			name = JFLiveStreamTests;
+			productName = JFLiveStreamTests;
+			productReference = A6A22E8120C6B1F400EE92CC /* JFLiveStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6A22E8B20C6B1F400EE92CC /* JFLiveStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A22E9B20C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStreamUITests" */;
+			buildPhases = (
+				A6A22E8820C6B1F400EE92CC /* Sources */,
+				A6A22E8920C6B1F400EE92CC /* Frameworks */,
+				A6A22E8A20C6B1F400EE92CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A22E8E20C6B1F400EE92CC /* PBXTargetDependency */,
+			);
+			name = JFLiveStreamUITests;
+			productName = JFLiveStreamUITests;
+			productReference = A6A22E8C20C6B1F400EE92CC /* JFLiveStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A22E6120C6B1F300EE92CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = huangpengfei;
+				TargetAttributes = {
+					A6A22E6820C6B1F300EE92CC = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A6A22E8020C6B1F400EE92CC = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A6A22E6820C6B1F300EE92CC;
+					};
+					A6A22E8B20C6B1F400EE92CC = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A6A22E6820C6B1F300EE92CC;
+					};
+				};
+			};
+			buildConfigurationList = A6A22E6420C6B1F300EE92CC /* Build configuration list for PBXProject "JFLiveStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A22E6020C6B1F300EE92CC;
+			productRefGroup = A6A22E6A20C6B1F300EE92CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A22E6820C6B1F300EE92CC /* JFLiveStream */,
+				A6A22E8020C6B1F400EE92CC /* JFLiveStreamTests */,
+				A6A22E8B20C6B1F400EE92CC /* JFLiveStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A22E6720C6B1F300EE92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A22E7920C6B1F400EE92CC /* LaunchScreen.storyboard in Resources */,
+				A6A22E7620C6B1F400EE92CC /* Assets.xcassets in Resources */,
+				A6A22E7420C6B1F400EE92CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E7F20C6B1F400EE92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E8A20C6B1F400EE92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16713F4075175CA08D3EB03B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JFLiveStream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E481E70DBD3ADB26291646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JFLiveStream/Pods-JFLiveStream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFLiveKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFLiveStream/Pods-JFLiveStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A22E6520C6B1F300EE92CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A22EA020C77C6700EE92CC /* JFLiveViewController.m in Sources */,
+				A6A22E7120C6B1F400EE92CC /* ViewController.m in Sources */,
+				A6A22E7C20C6B1F400EE92CC /* main.m in Sources */,
+				A6A22E6E20C6B1F300EE92CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E7D20C6B1F400EE92CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A22E8620C6B1F400EE92CC /* JFLiveStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A22E8820C6B1F400EE92CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A22E9120C6B1F400EE92CC /* JFLiveStreamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A22E8320C6B1F400EE92CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A22E6820C6B1F300EE92CC /* JFLiveStream */;
+			targetProxy = A6A22E8220C6B1F400EE92CC /* PBXContainerItemProxy */;
+		};
+		A6A22E8E20C6B1F400EE92CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A22E6820C6B1F300EE92CC /* JFLiveStream */;
+			targetProxy = A6A22E8D20C6B1F400EE92CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A22E7220C6B1F400EE92CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A22E7320C6B1F400EE92CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A22E7720C6B1F400EE92CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A22E7820C6B1F400EE92CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A22E9320C6B1F400EE92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6A22E9420C6B1F400EE92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A22E9620C6B1F400EE92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF3791DBAA2DD2DC5ED6760 /* Pods-JFLiveStream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JFLiveStream",
+				);
+				INFOPLIST_FILE = JFLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A22E9720C6B1F400EE92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC38A46B216E3660C1DA163F /* Pods-JFLiveStream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JFLiveStream",
+				);
+				INFOPLIST_FILE = JFLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6A22E9920C6B1F400EE92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFLiveStream.app/JFLiveStream";
+			};
+			name = Debug;
+		};
+		A6A22E9A20C6B1F400EE92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFLiveStream.app/JFLiveStream";
+			};
+			name = Release;
+		};
+		A6A22E9C20C6B1F400EE92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JFLiveStream;
+			};
+			name = Debug;
+		};
+		A6A22E9D20C6B1F400EE92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JFLiveStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A22E6420C6B1F300EE92CC /* Build configuration list for PBXProject "JFLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A22E9320C6B1F400EE92CC /* Debug */,
+				A6A22E9420C6B1F400EE92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A22E9520C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A22E9620C6B1F400EE92CC /* Debug */,
+				A6A22E9720C6B1F400EE92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A22E9820C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A22E9920C6B1F400EE92CC /* Debug */,
+				A6A22E9A20C6B1F400EE92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A22E9B20C6B1F400EE92CC /* Build configuration list for PBXNativeTarget "JFLiveStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A22E9C20C6B1F400EE92CC /* Debug */,
+				A6A22E9D20C6B1F400EE92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A22E6120C6B1F300EE92CC /* Project object */;
+}

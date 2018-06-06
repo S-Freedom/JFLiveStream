@@ -1,0 +1,6 @@
+framework module Pods_JFLiveStream {
+  umbrella header "Pods-JFLiveStream-umbrella.h"
+
+  export *
+  module * { export * }
+}
