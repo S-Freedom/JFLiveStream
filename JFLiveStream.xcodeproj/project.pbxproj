@@ -521,8 +521,9 @@
 			baseConfigurationReference = 8CF3791DBAA2DD2DC5ED6760 /* Pods-JFLiveStream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9GN7A92DK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X2B3LVG7M7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JFLiveStream",
@@ -533,8 +534,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStream;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.JFLiveStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LiveStream;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -544,8 +546,9 @@
 			baseConfigurationReference = EC38A46B216E3660C1DA163F /* Pods-JFLiveStream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9GN7A92DK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X2B3LVG7M7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JFLiveStream",
@@ -556,8 +559,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFLiveStream;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.JFLiveStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LiveStream;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
