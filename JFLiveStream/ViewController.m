@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JFLiveViewController.h"
+//#import "JFLiveViewController.h"
 @interface ViewController ()
 @property (nonatomic,copy) NSString *ipAddress;
 @property (nonatomic,copy) NSString *myRoom;
@@ -57,8 +57,8 @@
 //    [alert addAction:cancel];
 //    [self presentViewController:alert animated:YES completion:nil];
 
-    JFLiveViewController *viewController = [[JFLiveViewController alloc] initWithIPAddress:@"" MyRoom:@"" othersRoom:@""];
-    [self.navigationController pushViewController:viewController animated:YES];
+//    JFLiveViewController *viewController = [[JFLiveViewController alloc] initWithIPAddress:@"" MyRoom:@"" othersRoom:@""];
+//    [self.navigationController pushViewController:viewController animated:YES];
     
     
 }
